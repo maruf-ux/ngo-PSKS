@@ -1,0 +1,14 @@
+@media (max-width: 1024px) {
+    .brand-logo {
+        display: grid;
+        grid-template-columns: 200px 100px;
+        justify-content: space-between;
+        gap: 3rem;
+        padding: 0 1rem;
+    }
+
+    .fbox {
+        display: flex;
+        flex-direction: column;
+    }
+}

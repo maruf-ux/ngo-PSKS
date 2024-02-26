@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green-light: #BFEA7C;
+    --green: #9BCF53;
+    --green-dark: #416D19;
+    --yellow: #FFF67E;
+    --btn-yellow: #FCD980;
+    --white: #FFFFFF;
+    --black: #1b1c2b;
+
+    --fonts-1: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../source/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    background-color: #1110107a;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.nav-position {
+    display: flex;
+    column-gap: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.nav-link:hover {
+    color: #ffffffd5;
+}
+
+.brand-logo {
+    width: 35%;
+}
+
+.nav-item {
+    padding: 0 0.5rem;
+}
+
+/* nav btn */
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    width: 22%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 41px;
+    padding: 16px 0;
+}
+
+.nav-btn a {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.nav-btn:hover {
+    transition: all linear 5ms;
+    background: #FFF67E;
+}
+
+.nav-btn:hover a {
+    transition: all linear 5ms;
+    color: #000;
+}
+
+/***** banner *****/
+.banner {
+    margin-top: 12rem;
+    padding-bottom: 5rem;
+}
+
+.banner .left {
+    width: 52%;
+}
+
+.banner .left h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 74px;
+}
+
+.banner .left p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 28px;
+    width: 562px;
+    margin-top: 28px;
+    margin-bottom: 64px;
+}
+
+.cta-btn {
+    margin-top: 48px;
+    background: var(--btn-yellow);
+    color: var(--black);
+    font-family: var(--fonts-1);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 48px;
+    border-radius: 41px;
+}
+
+.cta-btn:hover {
+    transition: all linear 5ms;
+    background: var(--yellow);
+    color: var(--black);
+}
+
+/***** End banner *****/
+
+/***** contact start *****/
+
+.contact {
+    background: #9BCF53;
+    padding-top: 1rem;
+}
+
+.contact .contact-logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact .contact-logo-box .left {
+    width: 50%;
+}
+
+.contact .contact-logo-box .left p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    width: 399px;
+    color: #f4f6fc;
+    margin-top: 22px;
+}
+
+.contact .contact-logo-box .left .mail_phone {
+    display: flex;
+    background: #fcd980;
+    margin-top: 86px;
+    padding: 17px 37px;
+    width: 60%;
+}
+
+.contact .contact-logo-box .left .mail_phone .email h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+
+.contact .contact-logo-box .left .mail_phone .email p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f4f6fc;
+}
+
+.contact .contact-logo-box .right {
+    width: 50%;
+}
+
+.contact .contact-logo-box .right h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.contact .contact-logo-box .right p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 399px;
+    color: #f4f6fc;
+    margin-top: 14px;
+}
+
+.contact .contact-logo-box .right .icon {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: 1.35rem 0;
+}
+
+.contact .contact-logo-box .right .icon i {
+    color: #ffffff;
+}
+
+/***** contact end *****/
+
+/***** Footer start *****/
+
+footer .fbox {
+    display: flex;
+    width: 100%;
+    padding: 32px 0;
+}
+
+footer .fbox .copyright {
+    width: 60%;
+}
+
+footer .fbox .copyright p {
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+footer .fbox .footeritem {
+    width: 40%;
+}
+
+footer .fbox .footeritem ul {
+    display: flex;
+    justify-content: space-between;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/***** Footer end *****/
+
+
+
