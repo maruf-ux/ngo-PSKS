@@ -1,14 +1,61 @@
 @media (max-width: 1024px) {
-    .brand-logo {
-        display: grid;
-        grid-template-columns: 200px 100px;
-        justify-content: space-between;
-        gap: 3rem;
-        padding: 0 1rem;
+    header {
+        height: auto;
+        width: 100%;
     }
 
+    .brand-logo {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 65px;
+        justify-content: space-between;
+        padding: 0 1rem;
+        margin-left: 1rem;
+    }
+
+    .nav-btn a {
+        padding: 8px 0;
+        border-radius: 16px;
+        margin: 0;
+    }
+
+    .nav-btn {
+        width: 40%;
+        margin: 1rem 0;
+    }
+
+    .banner .left {
+        width: 100%;
+    }
+
+    .cta-btn {
+        margin-top: 30px;
+        padding: 16px 48px;
+        border-radius: 41px;
+    }
+
+    .contact .contact-logo-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-logo-box .left
+    {
+        width: 100%;
+    }
+    .contact .contact-logo-box .right {
+        width: 100%;
+    }
+    .contact .contact-logo-box .right .icon {
+        width: 35%;
+    }
     .fbox {
         display: flex;
         flex-direction: column;
+        padding: 0;
+    }
+    footer .fbox .footeritem ul {
+        visibility: hidden;
     }
 }
