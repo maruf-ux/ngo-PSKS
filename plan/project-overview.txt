@@ -1,0 +1,36 @@
+How we manage the code base 
+
+Project resourse 
+- Fonts
+- Color
+- Image 
+
+Project Components
+- Banner 
+- Navbar 
+- Hero section 
+- Footer section 
+
+Project Pages
+- Home 
+- About 
+
+Responsive 
+- Make Responsive from first of the file (Any devices)
+- 
+
+Make it easy to maintain 
+- Less code 
+
+
+Stacks
+- HTML 
+- CSS
+- JS
+- Jquery 
+- Bootstrap 
+
+Plugins
+- fontawesome
+
+
